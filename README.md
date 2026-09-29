@@ -1,4 +1,4 @@
-# 📊 Data Analyst Portfolio: Fraud Detection pada Data Transaksi 🕵️‍♂️💳
+# Fraud Detection pada Data Transaksi 
 
 Proyek ini berangkat dari satu pertanyaan: **Seberapa efektif sistem dalam mendeteksi transaksi fraud, dan apa yang bisa kita pelajari dari data untuk meningkatkannya?**
 
