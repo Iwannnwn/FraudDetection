@@ -1,4 +1,4 @@
-# Fraud Detection pada Data Transaksi 
+# 📊 Fraud Detection pada Data Transaksi 
 
 Proyek ini berangkat dari satu pertanyaan: **Seberapa efektif sistem dalam mendeteksi transaksi fraud, dan apa yang bisa kita pelajari dari data untuk meningkatkannya?**
 
@@ -22,7 +22,7 @@ Tahap eksplorasi dilakukan untuk memahami karakteristik transaksi dan menemukan 
 
 Beberapa temuan utama meliputi:
 
-* **Distribusi transaksi:** Penggunaan visualisasi dengan skala logaritmik membantu memperlihatkan ketimpangan yang sangat besar antara transaksi normal dan fraud.
+* **Distribusi transaksi:** Hasil visualisasi memperlihatkan ketimpangan yang sangat besar antara transaksi normal dan fraud.
 * **Pola berdasarkan tipe transaksi:** Seluruh kasus fraud dalam dataset ditemukan pada dua tipe transaksi, yaitu `CASH_OUT` dan `TRANSFER`. Temuan ini memberikan gambaran mengenai jenis transaksi yang perlu mendapat perhatian lebih dalam proses pemantauan.
 
 ## ⚙️ Feature Engineering
@@ -32,7 +32,7 @@ Untuk memperkaya informasi yang digunakan model, dilakukan pembuatan fitur baru 
 * **`errorBalanceOrig`** — Mengukur selisih antara saldo akhir pengirim yang tercatat dan saldo yang seharusnya berdasarkan nominal transaksi. Selisih ini dapat membantu mengidentifikasi ketidaksesuaian pada aliran dana.
 * **`errorBalanceDest`** — Mengukur selisih antara saldo akhir penerima yang tercatat dan saldo yang diperkirakan setelah transaksi. Fitur ini digunakan untuk menangkap anomali pada sisi penerima.
 
-Kedua fitur tersebut diharapkan dapat memberikan konteks tambahan bagi model dalam membedakan transaksi normal dan transaksi yang mencurigakan.
+Kedua fitur tersebut diharapkan dapat memberikan tambahan informasi bagi model dalam membedakan transaksi normal dan transaksi yang mencurigakan.
 
 ## 🤖 Model Development
 
@@ -82,5 +82,3 @@ Untuk menjalankan proyek ini secara lokal:
    ```
 
 ---
-
-*Proyek ini merupakan bagian dari portofolio Data Analyst yang mengeksplorasi bagaimana analisis data, pemahaman proses bisnis, dan machine learning dapat digunakan bersama untuk mengidentifikasi risiko serta mendukung pengambilan keputusan berbasis data.*
